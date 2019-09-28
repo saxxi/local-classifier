@@ -1,0 +1,30 @@
+{
+  "name": "test-classifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "serve",
+    "dev": "nodemon --ignore 'public/*.*' --exec babel-node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/preset-env": "^7.6.0",
+    "@tensorflow-models/mobilenet": "^2.0.4",
+    "@tensorflow/tfjs": "^1.2.9",
+    "@tensorflow/tfjs-converter": "^1.2.9",
+    "@tensorflow/tfjs-core": "^1.2.9",
+    "@tensorflow/tfjs-node": "^1.2.9",
+    "exiftool-vendored": "^8.22.0",
+    "express": "^4.17.1",
+    "jpeg-js": "^0.3.6",
+    "nodemon": "^1.19.2",
+    "seedrandom": "~2.4.3",
+    "serve": "^11.1.0"
+  }
+}
