@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "serve",
-    "dev": "nodemon --ignore 'public/*.*' --exec babel-node server.js",
+    "dev": "nodemon --ignore 'public/*.*' --exec babel-node classifier.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
